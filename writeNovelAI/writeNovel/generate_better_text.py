@@ -1,6 +1,4 @@
 # coding: utf-8
-import sys
-sys.path.append('..')
 from rnnlm_gen import BetterRnnlmGen
 import make_corpus as mc
 
