@@ -24,7 +24,7 @@ vocab_size = len(word_to_id)
 corpus_size = len(corpus)
 
 model = BetterRnnlmGen(vocab_size, wordvec_size, hidden_size, dropout)
-model.load_params('./params/BetterRnnlm_kafuka.pkl') # 学習済みのパラメータを指定する
+model.load_params('./params/BetterRnnlm_akutagawa.pkl') # 学習済みのパラメータを指定する
 
 # start文字とskip文字の設定
 start_word = '私'
