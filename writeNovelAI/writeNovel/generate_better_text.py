@@ -14,10 +14,10 @@ max_epoch = 5
 max_grad = 0.25
 dropout = 0.5
 
-# 学習データの読み込み
-file_dir = "./akutagawa/*"
-# file_dir = "./kafuka/*"
-# file_dir = "./dazai/*"
+# コーパスの読み込み
+file_dir = "./corpus/akutagawa/*"
+# file_dir = "./corpus/kafuka/*"
+# file_dir = "./corpus/dazai/*"
 corpus, word_to_id, id_to_word = mc.make_corpus(file_dir)
 
 vocab_size = len(word_to_id)
