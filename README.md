@@ -4,7 +4,27 @@ RNNを使った文章生成プログラムです。
 
 試しに芥川龍之介の小説を学習させて、出てきた結果がこちらです。
 
-## 使い方
+## 実行環境
+
+Windows10
+
+Python3.7 Anaconda
+
+https://www.anaconda.com/distribution/
+
+Mecab
+
+形態要素解析にMeCabを使用します。MeCabをインストールしてください。
+
+MeCabについては以下を参考にして下さい。
+
+https://taku910.github.io/mecab/
+
+MeCabのインストールは以下が参考になると思います。
+
+https://qiita.com/menon/items/f041b7c46543f38f78f7
+
+## 使い方 
 
 ### １．コーパスの指定
 
