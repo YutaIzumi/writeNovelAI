@@ -60,6 +60,10 @@ https://qiita.com/menon/items/f041b7c46543f38f78f7
 学習済みの重み　27行目
 （例）```model.load_params('./params/BetterRnnlm_akutagawa.pkl')```
 
+28行目で最初の言葉を指定します。
+
+（例）```start_word = '私'```
+
 ## 参考文献
 
 https://www.atmarkit.co.jp/ait/articles/1804/25/news143.html
