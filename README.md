@@ -6,13 +6,13 @@ RNNを使った文章生成プログラムです。
 
 ## 実行環境
 
-Windows10
+#### Windows10
 
-Python3.7 Anaconda
+#### Python3.7 Anaconda
 
 https://www.anaconda.com/distribution/
 
-Mecab
+#### Mecab
 
 形態要素解析にMeCabを使用します。MeCabをインストールしてください。
 
