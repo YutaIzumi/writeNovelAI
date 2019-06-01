@@ -3,6 +3,7 @@ import glob
 import MeCab
 import numpy as np
 
+# ディレクトリ内のすべてのテキストファイルを１つにまとめる
 def make_corpus(file_dir):
     fileNames = glob.glob(file_dir)
     
@@ -59,5 +60,5 @@ def make_corpus(file_dir):
     return corpus, word_to_id, id_to_word
 
 if __name__ == '__main__':
-    make_corpus("./dowa_devil/*")
+    make_corpus("./corpus/akutagawa/*")
     
