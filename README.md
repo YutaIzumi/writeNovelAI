@@ -32,7 +32,7 @@ RNNを使った文章生成プログラムです。
 学習済みの重み　27行目
 （例）```model.load_params('./params/BetterRnnlm_akutagawa.pkl')```
 
-参考文献
+## 参考文献
 
 https://www.atmarkit.co.jp/ait/articles/1804/25/news143.html
 
